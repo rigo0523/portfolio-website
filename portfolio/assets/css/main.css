@@ -5746,6 +5746,8 @@ input, select, textarea {
 					padding: 1.5rem 1.5rem 0.1rem 1.5rem ;
 				}
 
+				
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -7756,7 +7758,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+			
 			.items.style1.big > *:nth-child(-n + 2) {
 				border-top-width: 1px;
 			}
@@ -8129,37 +8131,6 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			.items.style3.big > * {
-				padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem ;
-				width: 100%;
-			}
-
-			.items.style3.medium > * {
-				padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem ;
-				width: 100%;
-			}
-
-			.items.style3.small > * {
-				padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem ;
-				width: 100%;
-			}
-
-			.items.style3.big > *, .items.style3.medium > *, .items.style3.small > * {
-				padding-left: 0;
-				padding-right: 0;
-			}
-
-			.items.style3.big > :first-child, .items.style3.medium > :first-child, .items.style3.small > :first-child {
-				padding-top: 0;
-			}
-
-			.items.style3.big > :last-child, .items.style3.medium > :last-child, .items.style3.small > :last-child {
-				padding-bottom: 0;
-			}
-
-				.items.style3.big > :last-child > .inner > :last-child, .items.style3.medium > :last-child > .inner > :last-child, .items.style3.small > :last-child > .inner > :last-child {
-					margin-bottom: 0;
-				}
 
 		}
 
